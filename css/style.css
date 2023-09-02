@@ -14,9 +14,27 @@
     --rosa: #f36a8d;
     --verde: #d0e03d;
 }
-
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
 body {
     background-color: #ede9e9;
+   
+}
+header{
+    top: 0;
+    background-color: transparent;
+    padding: 3%;
+}
+header .icon img{
+    width: 80px;
+}
+svg{
+   
+}
+#header_fixed{
+    position: fixed;
 }
 .box-resumo{
     display: flex;
