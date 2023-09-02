@@ -37,7 +37,7 @@ sr.reveal('.section_about_us .box-descricao button ',{
   duration: 1000,
   origin: 'bottom',
   distance: '30px',
-  delay: 600,
+  delay: 300,
 });
 
 

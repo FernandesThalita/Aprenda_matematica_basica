@@ -125,29 +125,31 @@ section{
 /* >>> Creditos / autores */
 .box-creditos{
     background-color: var(--amarelo);
+    opacity: 80%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    opacity: 80%;
+    
 }
 .section_creditos{
     width: min(85%, 76rem); 
+    
 }
 .section_creditos .titulo{
     padding: 2%;
     font-size: 1.3rem;
 }
 .box-autores {
-    margin-top:95px;
+    margin-top:55px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .box-autores .card{
 
 }
-.box-autores .card .img img{
+.box-autores .card .img {
     border-radius: 50%;
+    max-width:10%;
     
 }
 .box-autores .card .nome{
@@ -161,4 +163,6 @@ section{
     font-weight: 300;
     display: flex;
     justify-content: center;
+   max-width: 220px;
+ 
 }
