@@ -43,3 +43,15 @@ sr.reveal('.section_about_us .box-descricao button ',{
 
 
 ///////////// FIM pag index /////
+
+// ___PAG HOME_______
+
+sr.reveal('.banner ',{ 
+  duration: 1000,
+});
+sr.reveal('.banner .titulo ',{ 
+  duration: 1000,
+  origin: 'top',
+  distance: '30px',
+  delay: 330,
+});

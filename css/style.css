@@ -166,3 +166,32 @@ section{
    max-width: 220px;
  
 }
+
+/* ________PAG HOME__________ */
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/gif/school.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(60%);
+}
+.banner .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.banner h2{  
+   background-color: burlywood;
+   padding: 1%;
+   border-radius: 30px;
+   color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px ;
+    
+}
+
+
