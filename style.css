@@ -35,13 +35,13 @@ body {
 }
 .section_resumo .descricao{
     padding: 10%;
-    
-
+   
 }
 .section_resumo .descricao h2{
     letter-spacing: 1px;
     word-spacing: 1px;
 }
+
 .section_resumo .descricao p, .section_about_us .descricao p{
     margin: 25px 0px;
     font-size: 1rem;
@@ -102,16 +102,38 @@ body {
 
 /* >>> Creditos / autores */
 .box-creditos{
-    background-color: var(--azul);
+    background-color: var(--amarelo);
+    display: flex;
+    justify-content: center;
+    opacity: 80%;
 }
-.box-autores .card .img {
-    border-radius: 50%;
+.section_creditos{
+    width: min(85%, 76rem); 
+}
+.section_creditos .titulo{
+    padding: 2%;
+    font-size: 1.3rem;
+}
+.box-autores {
+    margin-top:95px;
+    display: flex;
+    justify-content: center;
+}
+.box-autores .card{
+
 }
 .box-autores .card .img img{
     border-radius: 50%;
     
 }
-.box-autores .card .txt{
-
-    align-items: center;
+.box-autores .card .nome{
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
+.box-autores .card .descricao{
+    margin-top: 5px;
+    font-weight: 300;
+    
 }
