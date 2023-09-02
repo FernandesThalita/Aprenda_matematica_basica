@@ -18,7 +18,7 @@
 body {
     background-color: #ede9e9;
 }
-main{
+.box-resumo{
     display: flex;
     justify-content: center;
 }
@@ -27,26 +27,26 @@ main{
     color: #4e598a;
 }
 
-.container_resumo {
+.section_resumo {
     width: min(85%, 76rem);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
-.container_resumo .descricao{
+.section_resumo .descricao{
     padding: 10%;
     
 
 }
-.container_resumo .descricao h2{
+.section_resumo .descricao h2{
     letter-spacing: 1px;
     word-spacing: 1px;
 }
-.container_resumo .descricao p{
+.section_resumo .descricao p{
     margin: 25px 0px;
     font-size: 1rem;
     font-weight: 300;
-}.container_resumo .descricao .box-btn button{
+}.section_resumo .descricao .box-btn button{
     background-color:#ede9e9 ;
     border: none;
     font-weight: 500;
@@ -61,8 +61,25 @@ main{
     font-size: 0.9rem;
     transition: .3s ease;
 }
-.container_resumo .descricao .box-btn button:hover{
+.section_resumo .descricao .box-btn button:hover{
     background-color:#ede9e9;
     color: var(--rosa);
+
+}
+/* >> ABOUT US */
+.box-about-us{
+    display: flex;
+    justify-content: center;
+}
+.section_about_us{
+ display: flex;
+ width: min(85%, 76rem);
+ display: flex;
+ justify-content: center;
+ align-items: center
+
+}
+.section_about_us .titulo{
+    margin-bottom: 15px;
 
 }
