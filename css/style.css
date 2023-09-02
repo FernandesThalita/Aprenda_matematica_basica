@@ -23,7 +23,7 @@ body {
    
 }
 header{
-    top: 0;
+    z-index: 1;
     background-color: transparent;
     padding: 3%;
 }
@@ -31,7 +31,11 @@ header .icon img{
     width: 80px;
 }
 svg{
-   
+   width: 100%;
+   height: auto;
+}
+section{
+    margin: 80px 0px;
 }
 #header_fixed{
     position: fixed;
@@ -123,6 +127,8 @@ svg{
     background-color: var(--amarelo);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
     opacity: 80%;
 }
 .section_creditos{

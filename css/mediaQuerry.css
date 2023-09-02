@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px){
+    section{
+        flex-direction: column-reverse;
+        margin: 80px 0px;
+    }
+    .section_resumo .descricao .box-btn button{
+        margin: auto !important ;
+    }
+    margin{
+        padding: 0;
+        margin: 0;
+    }
+}
