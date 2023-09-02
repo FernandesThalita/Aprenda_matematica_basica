@@ -91,7 +91,8 @@
                     <p>Aprenda conceitos básicos da matemática, como soma , fração ou área .Com exercícios e explicações
                         práticas!</p>
                     <div class="box-btn">
-                        <button>Sobre este Projeto</button>
+                        <button onclick="document.getElementById('about_us').scrollIntoView();">Sobre este
+                            Projeto</button>
 
                         <button>Estudar!</button>
                     </div>
@@ -102,7 +103,7 @@
         <div class="box-about-us">
             <section class="section_about_us">
                 <div class="box-descricao">
-                    <div class="titulo">
+                    <div class="titulo" id="about_us">
                         <h2>
                             <div class="txt-destaque">Sobre</div> <span>este Projeto</span>
                         </h2>
@@ -112,9 +113,9 @@
                             esse, earum dolorem mollitia ratione iste minima repudiandae repellendus sequi dignissimos
                             magni, voluptate voluptatem libero blanditiis eaque.</p>
                     </div>
-                    <div class="box-bnt">
-                        <button>Créditos</button>
-                    </div>
+
+                    <button onclick="document.getElementById('creditos').scrollIntoView();">Créditos</button>
+
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="641.51274" height="626.39159"
                     viewBox="0 0 641.51274 626.39159" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -218,6 +219,31 @@
             </section>
         </div>
     </main>
+
+    <div class="box-creditos">
+        <section class="section_creditos">
+
+            <div class="titulo">
+                <h2>Autores do Projeto</h2>
+            </div>
+            <div class="box-autores">
+                <div class="card">
+                    <div class="img">
+                        <img src="img/undraw_Female_avatar_efig.png" alt="" width="200px">
+                    </div>
+
+
+                    <div class="nome">
+                        <p>Thalita Fernandes</p>
+                    </div>
+                    <div class="descricao">
+                        <p>Programadora e desenvolvedora do site deste projeto</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
 </body>
 <script src="js/reveal.js"></script>
 
